@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="alphabet-line"></div>
+        <div id="timer-bar"></div>
+        <div id="game-info">
+            <p id="message">Keep typing</p>
+            <p id="progress">Time: <span id="time">00:00</span> | Hits: <span id="hits">0</span> | Misses: <span id="misses">0</span></p>
+            <p id="current-alphabet">[A]</p>
+            <button id="restartButton" onclick="restartGame" style="display: none">Restart Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
